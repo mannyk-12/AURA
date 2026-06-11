@@ -1,0 +1,2440 @@
+{
+  "schedule": [
+    {
+      "id": "CLS-CS301-1",
+      "course_code": "CS301",
+      "course_name": "Data Structures & Algorithms",
+      "instructor": "Dr. Rajeev Mohan Srivastava",
+      "day_of_week": "Monday",
+      "start_time": "09:00",
+      "end_time": "10:30",
+      "venue": "Room 301",
+      "type": "Lecture"
+    },
+    {
+      "id": "CLS-CS302-1",
+      "course_code": "CS302",
+      "course_name": "Object-Oriented Programming",
+      "instructor": "Prof. Sunita Aggarwal",
+      "day_of_week": "Monday",
+      "start_time": "11:00",
+      "end_time": "12:30",
+      "venue": "Room 305",
+      "type": "Lecture"
+    },
+    {
+      "id": "CLS-CS303-1",
+      "course_code": "CS303",
+      "course_name": "Discrete Mathematics",
+      "instructor": "Dr. Kavita Rani Gupta",
+      "day_of_week": "Monday",
+      "start_time": "14:00",
+      "end_time": "15:30",
+      "venue": "Room 302",
+      "type": "Lecture"
+    },
+    {
+      "id": "CLS-CS304-L1",
+      "course_code": "CS304",
+      "course_name": "Digital Logic Design",
+      "instructor": "Dr. Ashok Kumar Pandey",
+      "day_of_week": "Monday",
+      "start_time": "16:00",
+      "end_time": "17:30",
+      "venue": "Lab Block B-01",
+      "type": "Lab"
+    },
+    {
+      "id": "CLS-CS301-2",
+      "course_code": "CS301",
+      "course_name": "Data Structures & Algorithms",
+      "instructor": "Dr. Rajeev Mohan Srivastava",
+      "day_of_week": "Tuesday",
+      "start_time": "09:00",
+      "end_time": "10:30",
+      "venue": "Room 301",
+      "type": "Lecture"
+    },
+    {
+      "id": "CLS-CS305-1",
+      "course_code": "CS305",
+      "course_name": "Computer Organization & Architecture",
+      "instructor": "Dr. Vinod Kumar Tripathi",
+      "day_of_week": "Tuesday",
+      "start_time": "11:00",
+      "end_time": "12:30",
+      "venue": "Room 303",
+      "type": "Lecture"
+    },
+    {
+      "id": "CLS-MA301-1",
+      "course_code": "MA301",
+      "course_name": "Engineering Mathematics III",
+      "instructor": "Prof. Neelam Saxena",
+      "day_of_week": "Tuesday",
+      "start_time": "14:00",
+      "end_time": "15:30",
+      "venue": "Room 201",
+      "type": "Lecture"
+    },
+    {
+      "id": "CLS-CS302-L1",
+      "course_code": "CS302",
+      "course_name": "Object-Oriented Programming",
+      "instructor": "Prof. Sunita Aggarwal",
+      "day_of_week": "Tuesday",
+      "start_time": "16:00",
+      "end_time": "17:30",
+      "venue": "Lab Block A-02",
+      "type": "Lab"
+    },
+    {
+      "id": "CLS-CS303-T1",
+      "course_code": "CS303",
+      "course_name": "Discrete Mathematics",
+      "instructor": "Dr. Kavita Rani Gupta",
+      "day_of_week": "Wednesday",
+      "start_time": "09:00",
+      "end_time": "10:00",
+      "venue": "Room 302",
+      "type": "Tutorial"
+    },
+    {
+      "id": "CLS-CS305-2",
+      "course_code": "CS305",
+      "course_name": "Computer Organization & Architecture",
+      "instructor": "Dr. Vinod Kumar Tripathi",
+      "day_of_week": "Wednesday",
+      "start_time": "11:00",
+      "end_time": "12:30",
+      "venue": "Room 303",
+      "type": "Lecture"
+    },
+    {
+      "id": "CLS-CS306-1",
+      "course_code": "CS306",
+      "course_name": "Theory of Computation",
+      "instructor": "Dr. Pradeep Nair",
+      "day_of_week": "Wednesday",
+      "start_time": "14:00",
+      "end_time": "15:30",
+      "venue": "Room 304",
+      "type": "Lecture"
+    },
+    {
+      "id": "CLS-CS301-L1",
+      "course_code": "CS301",
+      "course_name": "Data Structures & Algorithms",
+      "instructor": "Dr. Rajeev Mohan Srivastava",
+      "day_of_week": "Wednesday",
+      "start_time": "16:00",
+      "end_time": "17:30",
+      "venue": "Lab Block A-01",
+      "type": "Lab"
+    },
+    {
+      "id": "CLS-CS304-1",
+      "course_code": "CS304",
+      "course_name": "Digital Logic Design",
+      "instructor": "Dr. Ashok Kumar Pandey",
+      "day_of_week": "Thursday",
+      "start_time": "09:00",
+      "end_time": "10:30",
+      "venue": "Room 306",
+      "type": "Lecture"
+    },
+    {
+      "id": "CLS-MA301-T1",
+      "course_code": "MA301",
+      "course_name": "Engineering Mathematics III",
+      "instructor": "Prof. Neelam Saxena",
+      "day_of_week": "Thursday",
+      "start_time": "11:00",
+      "end_time": "12:00",
+      "venue": "Room 201",
+      "type": "Tutorial"
+    },
+    {
+      "id": "CLS-CS306-2",
+      "course_code": "CS306",
+      "course_name": "Theory of Computation",
+      "instructor": "Dr. Pradeep Nair",
+      "day_of_week": "Thursday",
+      "start_time": "14:00",
+      "end_time": "15:30",
+      "venue": "Room 304",
+      "type": "Lecture"
+    },
+    {
+      "id": "CLS-HS301-1",
+      "course_code": "HS301",
+      "course_name": "Technical Communication & Ethics",
+      "instructor": "Prof. Meera Krishnamurthy",
+      "day_of_week": "Thursday",
+      "start_time": "16:00",
+      "end_time": "17:00",
+      "venue": "Room 101",
+      "type": "Lecture"
+    },
+    {
+      "id": "CLS-MA301-2",
+      "course_code": "MA301",
+      "course_name": "Engineering Mathematics III",
+      "instructor": "Prof. Neelam Saxena",
+      "day_of_week": "Friday",
+      "start_time": "09:00",
+      "end_time": "10:30",
+      "venue": "Room 201",
+      "type": "Lecture"
+    },
+    {
+      "id": "CLS-CS305-T1",
+      "course_code": "CS305",
+      "course_name": "Computer Organization & Architecture",
+      "instructor": "Dr. Vinod Kumar Tripathi",
+      "day_of_week": "Friday",
+      "start_time": "11:00",
+      "end_time": "12:00",
+      "venue": "Room 303",
+      "type": "Tutorial"
+    },
+    {
+      "id": "CLS-CS306-L1",
+      "course_code": "CS306",
+      "course_name": "Theory of Computation",
+      "instructor": "Dr. Pradeep Nair",
+      "day_of_week": "Friday",
+      "start_time": "14:00",
+      "end_time": "15:30",
+      "venue": "Lab Block A-03",
+      "type": "Lab"
+    },
+    {
+      "id": "CLS-CS304-2",
+      "course_code": "CS304",
+      "course_name": "Digital Logic Design",
+      "instructor": "Dr. Ashok Kumar Pandey",
+      "day_of_week": "Friday",
+      "start_time": "16:00",
+      "end_time": "17:30",
+      "venue": "Room 306",
+      "type": "Lecture"
+    },
+    {
+      "id": "CLS-EC301-1",
+      "course_code": "EC301",
+      "course_name": "Analog Electronics",
+      "instructor": "Dr. Suresh Babu Narayanan",
+      "day_of_week": "Monday",
+      "start_time": "09:00",
+      "end_time": "10:30",
+      "venue": "Room 401",
+      "type": "Lecture"
+    },
+    {
+      "id": "CLS-EC302-1",
+      "course_code": "EC302",
+      "course_name": "Signals & Systems",
+      "instructor": "Dr. Rekha Sharma",
+      "day_of_week": "Monday",
+      "start_time": "11:00",
+      "end_time": "12:30",
+      "venue": "Room 402",
+      "type": "Lecture"
+    },
+    {
+      "id": "CLS-EC303-1",
+      "course_code": "EC303",
+      "course_name": "Electromagnetic Field Theory",
+      "instructor": "Prof. Girish Chandra Mishra",
+      "day_of_week": "Monday",
+      "start_time": "14:00",
+      "end_time": "15:30",
+      "venue": "Room 403",
+      "type": "Lecture"
+    },
+    {
+      "id": "CLS-EC301-L1",
+      "course_code": "EC301",
+      "course_name": "Analog Electronics",
+      "instructor": "Dr. Suresh Babu Narayanan",
+      "day_of_week": "Monday",
+      "start_time": "16:00",
+      "end_time": "17:30",
+      "venue": "Lab Block C-01",
+      "type": "Lab"
+    },
+    {
+      "id": "CLS-EC304-1",
+      "course_code": "EC304",
+      "course_name": "Digital Communication",
+      "instructor": "Dr. Anand Krishnaswamy",
+      "day_of_week": "Tuesday",
+      "start_time": "09:00",
+      "end_time": "10:30",
+      "venue": "Room 404",
+      "type": "Lecture"
+    },
+    {
+      "id": "CLS-EC302-2",
+      "course_code": "EC302",
+      "course_name": "Signals & Systems",
+      "instructor": "Dr. Rekha Sharma",
+      "day_of_week": "Tuesday",
+      "start_time": "11:00",
+      "end_time": "12:30",
+      "venue": "Room 402",
+      "type": "Lecture"
+    },
+    {
+      "id": "CLS-MA301-EC1",
+      "course_code": "MA301",
+      "course_name": "Engineering Mathematics III",
+      "instructor": "Prof. Neelam Saxena",
+      "day_of_week": "Tuesday",
+      "start_time": "14:00",
+      "end_time": "15:30",
+      "venue": "Room 202",
+      "type": "Lecture"
+    },
+    {
+      "id": "CLS-EC302-L1",
+      "course_code": "EC302",
+      "course_name": "Signals & Systems",
+      "instructor": "Dr. Rekha Sharma",
+      "day_of_week": "Tuesday",
+      "start_time": "16:00",
+      "end_time": "17:30",
+      "venue": "Lab Block C-02",
+      "type": "Lab"
+    },
+    {
+      "id": "CLS-EC303-T1",
+      "course_code": "EC303",
+      "course_name": "Electromagnetic Field Theory",
+      "instructor": "Prof. Girish Chandra Mishra",
+      "day_of_week": "Wednesday",
+      "start_time": "09:00",
+      "end_time": "10:00",
+      "venue": "Room 403",
+      "type": "Tutorial"
+    },
+    {
+      "id": "CLS-EC305-1",
+      "course_code": "EC305",
+      "course_name": "Microprocessors & Embedded Systems",
+      "instructor": "Dr. Pankaj Verma",
+      "day_of_week": "Wednesday",
+      "start_time": "11:00",
+      "end_time": "12:30",
+      "venue": "Room 405",
+      "type": "Lecture"
+    },
+    {
+      "id": "CLS-EC304-2",
+      "course_code": "EC304",
+      "course_name": "Digital Communication",
+      "instructor": "Dr. Anand Krishnaswamy",
+      "day_of_week": "Wednesday",
+      "start_time": "14:00",
+      "end_time": "15:30",
+      "venue": "Room 404",
+      "type": "Lecture"
+    },
+    {
+      "id": "CLS-EC305-L1",
+      "course_code": "EC305",
+      "course_name": "Microprocessors & Embedded Systems",
+      "instructor": "Dr. Pankaj Verma",
+      "day_of_week": "Wednesday",
+      "start_time": "16:00",
+      "end_time": "17:30",
+      "venue": "Lab Block C-03",
+      "type": "Lab"
+    },
+    {
+      "id": "CLS-EC306-1",
+      "course_code": "EC306",
+      "course_name": "Control Systems",
+      "instructor": "Dr. Lalitha Devi Rajan",
+      "day_of_week": "Thursday",
+      "start_time": "09:00",
+      "end_time": "10:30",
+      "venue": "Room 406",
+      "type": "Lecture"
+    },
+    {
+      "id": "CLS-MA301-ECT1",
+      "course_code": "MA301",
+      "course_name": "Engineering Mathematics III",
+      "instructor": "Prof. Neelam Saxena",
+      "day_of_week": "Thursday",
+      "start_time": "11:00",
+      "end_time": "12:00",
+      "venue": "Room 202",
+      "type": "Tutorial"
+    },
+    {
+      "id": "CLS-EC303-2",
+      "course_code": "EC303",
+      "course_name": "Electromagnetic Field Theory",
+      "instructor": "Prof. Girish Chandra Mishra",
+      "day_of_week": "Thursday",
+      "start_time": "14:00",
+      "end_time": "15:30",
+      "venue": "Room 403",
+      "type": "Lecture"
+    },
+    {
+      "id": "CLS-HS301-EC1",
+      "course_code": "HS301",
+      "course_name": "Technical Communication & Ethics",
+      "instructor": "Prof. Meera Krishnamurthy",
+      "day_of_week": "Thursday",
+      "start_time": "16:00",
+      "end_time": "17:00",
+      "venue": "Room 102",
+      "type": "Lecture"
+    },
+    {
+      "id": "CLS-EC306-2",
+      "course_code": "EC306",
+      "course_name": "Control Systems",
+      "instructor": "Dr. Lalitha Devi Rajan",
+      "day_of_week": "Friday",
+      "start_time": "09:00",
+      "end_time": "10:30",
+      "venue": "Room 406",
+      "type": "Lecture"
+    },
+    {
+      "id": "CLS-EC305-T1",
+      "course_code": "EC305",
+      "course_name": "Microprocessors & Embedded Systems",
+      "instructor": "Dr. Pankaj Verma",
+      "day_of_week": "Friday",
+      "start_time": "11:00",
+      "end_time": "12:00",
+      "venue": "Room 405",
+      "type": "Tutorial"
+    },
+    {
+      "id": "CLS-EC304-L1",
+      "course_code": "EC304",
+      "course_name": "Digital Communication",
+      "instructor": "Dr. Anand Krishnaswamy",
+      "day_of_week": "Friday",
+      "start_time": "14:00",
+      "end_time": "15:30",
+      "venue": "Lab Block C-04",
+      "type": "Lab"
+    },
+    {
+      "id": "CLS-EC306-T1",
+      "course_code": "EC306",
+      "course_name": "Control Systems",
+      "instructor": "Dr. Lalitha Devi Rajan",
+      "day_of_week": "Friday",
+      "start_time": "16:00",
+      "end_time": "17:00",
+      "venue": "Room 406",
+      "type": "Tutorial"
+    },
+    {
+      "id": "CLS-EE301-1",
+      "course_code": "EE301",
+      "course_name": "Electrical Machines I",
+      "instructor": "Dr. Bharat Singh Rathore",
+      "day_of_week": "Monday",
+      "start_time": "09:00",
+      "end_time": "10:30",
+      "venue": "Room 501",
+      "type": "Lecture"
+    },
+    {
+      "id": "CLS-EE302-1",
+      "course_code": "EE302",
+      "course_name": "Power Systems Analysis",
+      "instructor": "Dr. Usha Rani Tiwari",
+      "day_of_week": "Monday",
+      "start_time": "11:00",
+      "end_time": "12:30",
+      "venue": "Room 502",
+      "type": "Lecture"
+    },
+    {
+      "id": "CLS-EE303-1",
+      "course_code": "EE303",
+      "course_name": "Circuit Theory & Networks",
+      "instructor": "Prof. Ramesh Chandra Joshi",
+      "day_of_week": "Monday",
+      "start_time": "14:00",
+      "end_time": "15:30",
+      "venue": "Room 503",
+      "type": "Lecture"
+    },
+    {
+      "id": "CLS-EE301-L1",
+      "course_code": "EE301",
+      "course_name": "Electrical Machines I",
+      "instructor": "Dr. Bharat Singh Rathore",
+      "day_of_week": "Monday",
+      "start_time": "16:00",
+      "end_time": "17:30",
+      "venue": "Lab Block D-01",
+      "type": "Lab"
+    },
+    {
+      "id": "CLS-EE304-1",
+      "course_code": "EE304",
+      "course_name": "Power Electronics",
+      "instructor": "Dr. Narendra Pratap Singh",
+      "day_of_week": "Tuesday",
+      "start_time": "09:00",
+      "end_time": "10:30",
+      "venue": "Room 504",
+      "type": "Lecture"
+    },
+    {
+      "id": "CLS-EE302-2",
+      "course_code": "EE302",
+      "course_name": "Power Systems Analysis",
+      "instructor": "Dr. Usha Rani Tiwari",
+      "day_of_week": "Tuesday",
+      "start_time": "11:00",
+      "end_time": "12:30",
+      "venue": "Room 502",
+      "type": "Lecture"
+    },
+    {
+      "id": "CLS-MA301-EE1",
+      "course_code": "MA301",
+      "course_name": "Engineering Mathematics III",
+      "instructor": "Prof. Neelam Saxena",
+      "day_of_week": "Tuesday",
+      "start_time": "14:00",
+      "end_time": "15:30",
+      "venue": "Room 203",
+      "type": "Lecture"
+    },
+    {
+      "id": "CLS-EE303-L1",
+      "course_code": "EE303",
+      "course_name": "Circuit Theory & Networks",
+      "instructor": "Prof. Ramesh Chandra Joshi",
+      "day_of_week": "Tuesday",
+      "start_time": "16:00",
+      "end_time": "17:30",
+      "venue": "Lab Block D-02",
+      "type": "Lab"
+    },
+    {
+      "id": "CLS-EE303-T1",
+      "course_code": "EE303",
+      "course_name": "Circuit Theory & Networks",
+      "instructor": "Prof. Ramesh Chandra Joshi",
+      "day_of_week": "Wednesday",
+      "start_time": "09:00",
+      "end_time": "10:00",
+      "venue": "Room 503",
+      "type": "Tutorial"
+    },
+    {
+      "id": "CLS-EE305-1",
+      "course_code": "EE305",
+      "course_name": "Control Systems Engineering",
+      "instructor": "Dr. Dinesh Kumar Agarwal",
+      "day_of_week": "Wednesday",
+      "start_time": "11:00",
+      "end_time": "12:30",
+      "venue": "Room 505",
+      "type": "Lecture"
+    },
+    {
+      "id": "CLS-EE304-2",
+      "course_code": "EE304",
+      "course_name": "Power Electronics",
+      "instructor": "Dr. Narendra Pratap Singh",
+      "day_of_week": "Wednesday",
+      "start_time": "14:00",
+      "end_time": "15:30",
+      "venue": "Room 504",
+      "type": "Lecture"
+    },
+    {
+      "id": "CLS-EE304-L1",
+      "course_code": "EE304",
+      "course_name": "Power Electronics",
+      "instructor": "Dr. Narendra Pratap Singh",
+      "day_of_week": "Wednesday",
+      "start_time": "16:00",
+      "end_time": "17:30",
+      "venue": "Lab Block D-03",
+      "type": "Lab"
+    },
+    {
+      "id": "CLS-EE301-2",
+      "course_code": "EE301",
+      "course_name": "Electrical Machines I",
+      "instructor": "Dr. Bharat Singh Rathore",
+      "day_of_week": "Thursday",
+      "start_time": "09:00",
+      "end_time": "10:30",
+      "venue": "Room 501",
+      "type": "Lecture"
+    },
+    {
+      "id": "CLS-MA301-EET1",
+      "course_code": "MA301",
+      "course_name": "Engineering Mathematics III",
+      "instructor": "Prof. Neelam Saxena",
+      "day_of_week": "Thursday",
+      "start_time": "11:00",
+      "end_time": "12:00",
+      "venue": "Room 203",
+      "type": "Tutorial"
+    },
+    {
+      "id": "CLS-EE305-2",
+      "course_code": "EE305",
+      "course_name": "Control Systems Engineering",
+      "instructor": "Dr. Dinesh Kumar Agarwal",
+      "day_of_week": "Thursday",
+      "start_time": "14:00",
+      "end_time": "15:30",
+      "venue": "Room 505",
+      "type": "Lecture"
+    },
+    {
+      "id": "CLS-HS301-EE1",
+      "course_code": "HS301",
+      "course_name": "Technical Communication & Ethics",
+      "instructor": "Prof. Meera Krishnamurthy",
+      "day_of_week": "Thursday",
+      "start_time": "16:00",
+      "end_time": "17:00",
+      "venue": "Room 103",
+      "type": "Lecture"
+    },
+    {
+      "id": "CLS-EE302-T1",
+      "course_code": "EE302",
+      "course_name": "Power Systems Analysis",
+      "instructor": "Dr. Usha Rani Tiwari",
+      "day_of_week": "Friday",
+      "start_time": "09:00",
+      "end_time": "10:00",
+      "venue": "Room 502",
+      "type": "Tutorial"
+    },
+    {
+      "id": "CLS-EE305-T1",
+      "course_code": "EE305",
+      "course_name": "Control Systems Engineering",
+      "instructor": "Dr. Dinesh Kumar Agarwal",
+      "day_of_week": "Friday",
+      "start_time": "11:00",
+      "end_time": "12:00",
+      "venue": "Room 505",
+      "type": "Tutorial"
+    },
+    {
+      "id": "CLS-EE302-L1",
+      "course_code": "EE302",
+      "course_name": "Power Systems Analysis",
+      "instructor": "Dr. Usha Rani Tiwari",
+      "day_of_week": "Friday",
+      "start_time": "14:00",
+      "end_time": "15:30",
+      "venue": "Lab Block D-04",
+      "type": "Lab"
+    },
+    {
+      "id": "CLS-EE303-2",
+      "course_code": "EE303",
+      "course_name": "Circuit Theory & Networks",
+      "instructor": "Prof. Ramesh Chandra Joshi",
+      "day_of_week": "Friday",
+      "start_time": "16:00",
+      "end_time": "17:30",
+      "venue": "Room 503",
+      "type": "Lecture"
+    },
+    {
+      "id": "CLS-ME301-1",
+      "course_code": "ME301",
+      "course_name": "Thermodynamics",
+      "instructor": "Dr. Sanjay Kumar Dwivedi",
+      "day_of_week": "Monday",
+      "start_time": "09:00",
+      "end_time": "10:30",
+      "venue": "Room 601",
+      "type": "Lecture"
+    },
+    {
+      "id": "CLS-ME302-1",
+      "course_code": "ME302",
+      "course_name": "Strength of Materials",
+      "instructor": "Dr. Rajesh Vishwakarma",
+      "day_of_week": "Monday",
+      "start_time": "11:00",
+      "end_time": "12:30",
+      "venue": "Room 602",
+      "type": "Lecture"
+    },
+    {
+      "id": "CLS-ME303-1",
+      "course_code": "ME303",
+      "course_name": "Fluid Mechanics",
+      "instructor": "Prof. Harishchandra Patel",
+      "day_of_week": "Monday",
+      "start_time": "14:00",
+      "end_time": "15:30",
+      "venue": "Room 603",
+      "type": "Lecture"
+    },
+    {
+      "id": "CLS-ME304-L1",
+      "course_code": "ME304",
+      "course_name": "Manufacturing Processes",
+      "instructor": "Dr. Sunil Kumar Yadav",
+      "day_of_week": "Monday",
+      "start_time": "16:00",
+      "end_time": "17:30",
+      "venue": "Workshop Block W-01",
+      "type": "Lab"
+    },
+    {
+      "id": "CLS-ME301-2",
+      "course_code": "ME301",
+      "course_name": "Thermodynamics",
+      "instructor": "Dr. Sanjay Kumar Dwivedi",
+      "day_of_week": "Tuesday",
+      "start_time": "09:00",
+      "end_time": "10:30",
+      "venue": "Room 601",
+      "type": "Lecture"
+    },
+    {
+      "id": "CLS-ME305-1",
+      "course_code": "ME305",
+      "course_name": "Kinematics of Machines",
+      "instructor": "Dr. Avinash Chandra Tiwari",
+      "day_of_week": "Tuesday",
+      "start_time": "11:00",
+      "end_time": "12:30",
+      "venue": "Room 604",
+      "type": "Lecture"
+    },
+    {
+      "id": "CLS-MA301-ME1",
+      "course_code": "MA301",
+      "course_name": "Engineering Mathematics III",
+      "instructor": "Prof. Neelam Saxena",
+      "day_of_week": "Tuesday",
+      "start_time": "14:00",
+      "end_time": "15:30",
+      "venue": "Room 204",
+      "type": "Lecture"
+    },
+    {
+      "id": "CLS-ME302-L1",
+      "course_code": "ME302",
+      "course_name": "Strength of Materials",
+      "instructor": "Dr. Rajesh Vishwakarma",
+      "day_of_week": "Tuesday",
+      "start_time": "16:00",
+      "end_time": "17:30",
+      "venue": "Lab Block E-01",
+      "type": "Lab"
+    },
+    {
+      "id": "CLS-ME303-T1",
+      "course_code": "ME303",
+      "course_name": "Fluid Mechanics",
+      "instructor": "Prof. Harishchandra Patel",
+      "day_of_week": "Wednesday",
+      "start_time": "09:00",
+      "end_time": "10:00",
+      "venue": "Room 603",
+      "type": "Tutorial"
+    },
+    {
+      "id": "CLS-ME304-1",
+      "course_code": "ME304",
+      "course_name": "Manufacturing Processes",
+      "instructor": "Dr. Sunil Kumar Yadav",
+      "day_of_week": "Wednesday",
+      "start_time": "11:00",
+      "end_time": "12:30",
+      "venue": "Room 605",
+      "type": "Lecture"
+    },
+    {
+      "id": "CLS-ME306-1",
+      "course_code": "ME306",
+      "course_name": "Engineering Drawing & CAD",
+      "instructor": "Prof. Deepak Nagpal",
+      "day_of_week": "Wednesday",
+      "start_time": "14:00",
+      "end_time": "15:30",
+      "venue": "Drawing Hall DH-01",
+      "type": "Lecture"
+    },
+    {
+      "id": "CLS-ME303-L1",
+      "course_code": "ME303",
+      "course_name": "Fluid Mechanics",
+      "instructor": "Prof. Harishchandra Patel",
+      "day_of_week": "Wednesday",
+      "start_time": "16:00",
+      "end_time": "17:30",
+      "venue": "Lab Block E-02",
+      "type": "Lab"
+    },
+    {
+      "id": "CLS-ME302-2",
+      "course_code": "ME302",
+      "course_name": "Strength of Materials",
+      "instructor": "Dr. Rajesh Vishwakarma",
+      "day_of_week": "Thursday",
+      "start_time": "09:00",
+      "end_time": "10:30",
+      "venue": "Room 602",
+      "type": "Lecture"
+    },
+    {
+      "id": "CLS-MA301-MET1",
+      "course_code": "MA301",
+      "course_name": "Engineering Mathematics III",
+      "instructor": "Prof. Neelam Saxena",
+      "day_of_week": "Thursday",
+      "start_time": "11:00",
+      "end_time": "12:00",
+      "venue": "Room 204",
+      "type": "Tutorial"
+    },
+    {
+      "id": "CLS-ME305-2",
+      "course_code": "ME305",
+      "course_name": "Kinematics of Machines",
+      "instructor": "Dr. Avinash Chandra Tiwari",
+      "day_of_week": "Thursday",
+      "start_time": "14:00",
+      "end_time": "15:30",
+      "venue": "Room 604",
+      "type": "Lecture"
+    },
+    {
+      "id": "CLS-HS301-ME1",
+      "course_code": "HS301",
+      "course_name": "Technical Communication & Ethics",
+      "instructor": "Prof. Meera Krishnamurthy",
+      "day_of_week": "Thursday",
+      "start_time": "16:00",
+      "end_time": "17:00",
+      "venue": "Room 104",
+      "type": "Lecture"
+    },
+    {
+      "id": "CLS-ME305-T1",
+      "course_code": "ME305",
+      "course_name": "Kinematics of Machines",
+      "instructor": "Dr. Avinash Chandra Tiwari",
+      "day_of_week": "Friday",
+      "start_time": "09:00",
+      "end_time": "10:00",
+      "venue": "Room 604",
+      "type": "Tutorial"
+    },
+    {
+      "id": "CLS-ME306-L1",
+      "course_code": "ME306",
+      "course_name": "Engineering Drawing & CAD",
+      "instructor": "Prof. Deepak Nagpal",
+      "day_of_week": "Friday",
+      "start_time": "11:00",
+      "end_time": "12:30",
+      "venue": "CAD Lab CAD-01",
+      "type": "Lab"
+    },
+    {
+      "id": "CLS-ME301-T1",
+      "course_code": "ME301",
+      "course_name": "Thermodynamics",
+      "instructor": "Dr. Sanjay Kumar Dwivedi",
+      "day_of_week": "Friday",
+      "start_time": "14:00",
+      "end_time": "15:00",
+      "venue": "Room 601",
+      "type": "Tutorial"
+    },
+    {
+      "id": "CLS-ME304-2",
+      "course_code": "ME304",
+      "course_name": "Manufacturing Processes",
+      "instructor": "Dr. Sunil Kumar Yadav",
+      "day_of_week": "Friday",
+      "start_time": "16:00",
+      "end_time": "17:30",
+      "venue": "Room 605",
+      "type": "Lecture"
+    },
+    {
+      "id": "CLS-CH301-1",
+      "course_code": "CH301",
+      "course_name": "Chemical Process Calculations",
+      "instructor": "Dr. Vandana Srivastava",
+      "day_of_week": "Monday",
+      "start_time": "09:00",
+      "end_time": "10:30",
+      "venue": "Room 701",
+      "type": "Lecture"
+    },
+    {
+      "id": "CLS-CH302-1",
+      "course_code": "CH302",
+      "course_name": "Chemical Engineering Thermodynamics",
+      "instructor": "Dr. Prashant Kumar Jain",
+      "day_of_week": "Monday",
+      "start_time": "11:00",
+      "end_time": "12:30",
+      "venue": "Room 702",
+      "type": "Lecture"
+    },
+    {
+      "id": "CLS-CH303-1",
+      "course_code": "CH303",
+      "course_name": "Fluid Flow Operations",
+      "instructor": "Prof. Shalini Agarwal",
+      "day_of_week": "Monday",
+      "start_time": "14:00",
+      "end_time": "15:30",
+      "venue": "Room 703",
+      "type": "Lecture"
+    },
+    {
+      "id": "CLS-CH304-L1",
+      "course_code": "CH304",
+      "course_name": "Organic Chemistry Lab",
+      "instructor": "Dr. Nisha Sharma",
+      "day_of_week": "Monday",
+      "start_time": "16:00",
+      "end_time": "17:30",
+      "venue": "Chem Lab F-01",
+      "type": "Lab"
+    },
+    {
+      "id": "CLS-CH301-2",
+      "course_code": "CH301",
+      "course_name": "Chemical Process Calculations",
+      "instructor": "Dr. Vandana Srivastava",
+      "day_of_week": "Tuesday",
+      "start_time": "09:00",
+      "end_time": "10:30",
+      "venue": "Room 701",
+      "type": "Lecture"
+    },
+    {
+      "id": "CLS-CH305-1",
+      "course_code": "CH305",
+      "course_name": "Heat Transfer Operations",
+      "instructor": "Dr. Ravi Shankar Dubey",
+      "day_of_week": "Tuesday",
+      "start_time": "11:00",
+      "end_time": "12:30",
+      "venue": "Room 704",
+      "type": "Lecture"
+    },
+    {
+      "id": "CLS-MA301-CH1",
+      "course_code": "MA301",
+      "course_name": "Engineering Mathematics III",
+      "instructor": "Prof. Neelam Saxena",
+      "day_of_week": "Tuesday",
+      "start_time": "14:00",
+      "end_time": "15:30",
+      "venue": "Room 205",
+      "type": "Lecture"
+    },
+    {
+      "id": "CLS-CH303-L1",
+      "course_code": "CH303",
+      "course_name": "Fluid Flow Operations",
+      "instructor": "Prof. Shalini Agarwal",
+      "day_of_week": "Tuesday",
+      "start_time": "16:00",
+      "end_time": "17:30",
+      "venue": "Chem Lab F-02",
+      "type": "Lab"
+    },
+    {
+      "id": "CLS-CH302-T1",
+      "course_code": "CH302",
+      "course_name": "Chemical Engineering Thermodynamics",
+      "instructor": "Dr. Prashant Kumar Jain",
+      "day_of_week": "Wednesday",
+      "start_time": "09:00",
+      "end_time": "10:00",
+      "venue": "Room 702",
+      "type": "Tutorial"
+    },
+    {
+      "id": "CLS-CH306-1",
+      "course_code": "CH306",
+      "course_name": "Mass Transfer Operations",
+      "instructor": "Dr. Alok Mishra",
+      "day_of_week": "Wednesday",
+      "start_time": "11:00",
+      "end_time": "12:30",
+      "venue": "Room 705",
+      "type": "Lecture"
+    },
+    {
+      "id": "CLS-CH305-2",
+      "course_code": "CH305",
+      "course_name": "Heat Transfer Operations",
+      "instructor": "Dr. Ravi Shankar Dubey",
+      "day_of_week": "Wednesday",
+      "start_time": "14:00",
+      "end_time": "15:30",
+      "venue": "Room 704",
+      "type": "Lecture"
+    },
+    {
+      "id": "CLS-CH305-L1",
+      "course_code": "CH305",
+      "course_name": "Heat Transfer Operations",
+      "instructor": "Dr. Ravi Shankar Dubey",
+      "day_of_week": "Wednesday",
+      "start_time": "16:00",
+      "end_time": "17:30",
+      "venue": "Chem Lab F-03",
+      "type": "Lab"
+    },
+    {
+      "id": "CLS-CH302-2",
+      "course_code": "CH302",
+      "course_name": "Chemical Engineering Thermodynamics",
+      "instructor": "Dr. Prashant Kumar Jain",
+      "day_of_week": "Thursday",
+      "start_time": "09:00",
+      "end_time": "10:30",
+      "venue": "Room 702",
+      "type": "Lecture"
+    },
+    {
+      "id": "CLS-MA301-CHT1",
+      "course_code": "MA301",
+      "course_name": "Engineering Mathematics III",
+      "instructor": "Prof. Neelam Saxena",
+      "day_of_week": "Thursday",
+      "start_time": "11:00",
+      "end_time": "12:00",
+      "venue": "Room 205",
+      "type": "Tutorial"
+    },
+    {
+      "id": "CLS-CH306-2",
+      "course_code": "CH306",
+      "course_name": "Mass Transfer Operations",
+      "instructor": "Dr. Alok Mishra",
+      "day_of_week": "Thursday",
+      "start_time": "14:00",
+      "end_time": "15:30",
+      "venue": "Room 705",
+      "type": "Lecture"
+    },
+    {
+      "id": "CLS-HS301-CH1",
+      "course_code": "HS301",
+      "course_name": "Technical Communication & Ethics",
+      "instructor": "Prof. Meera Krishnamurthy",
+      "day_of_week": "Thursday",
+      "start_time": "16:00",
+      "end_time": "17:00",
+      "venue": "Room 105",
+      "type": "Lecture"
+    },
+    {
+      "id": "CLS-CH303-T1",
+      "course_code": "CH303",
+      "course_name": "Fluid Flow Operations",
+      "instructor": "Prof. Shalini Agarwal",
+      "day_of_week": "Friday",
+      "start_time": "09:00",
+      "end_time": "10:00",
+      "venue": "Room 703",
+      "type": "Tutorial"
+    },
+    {
+      "id": "CLS-CH306-L1",
+      "course_code": "CH306",
+      "course_name": "Mass Transfer Operations",
+      "instructor": "Dr. Alok Mishra",
+      "day_of_week": "Friday",
+      "start_time": "11:00",
+      "end_time": "12:30",
+      "venue": "Chem Lab F-04",
+      "type": "Lab"
+    },
+    {
+      "id": "CLS-CH301-T1",
+      "course_code": "CH301",
+      "course_name": "Chemical Process Calculations",
+      "instructor": "Dr. Vandana Srivastava",
+      "day_of_week": "Friday",
+      "start_time": "14:00",
+      "end_time": "15:00",
+      "venue": "Room 701",
+      "type": "Tutorial"
+    },
+    {
+      "id": "CLS-CH304-1",
+      "course_code": "CH304",
+      "course_name": "Organic Chemistry Lab",
+      "instructor": "Dr. Nisha Sharma",
+      "day_of_week": "Friday",
+      "start_time": "16:00",
+      "end_time": "17:30",
+      "venue": "Room 706",
+      "type": "Lecture"
+    },
+    {
+      "id": "CLS-CE301-1",
+      "course_code": "CE301",
+      "course_name": "Structural Analysis",
+      "instructor": "Dr. Mukesh Kumar Goyal",
+      "day_of_week": "Monday",
+      "start_time": "09:00",
+      "end_time": "10:30",
+      "venue": "Room 801",
+      "type": "Lecture"
+    },
+    {
+      "id": "CLS-CE302-1",
+      "course_code": "CE302",
+      "course_name": "Geotechnical Engineering",
+      "instructor": "Dr. Seema Rawat",
+      "day_of_week": "Monday",
+      "start_time": "11:00",
+      "end_time": "12:30",
+      "venue": "Room 802",
+      "type": "Lecture"
+    },
+    {
+      "id": "CLS-CE303-1",
+      "course_code": "CE303",
+      "course_name": "Hydraulics & Hydraulic Machinery",
+      "instructor": "Dr. Rakesh Kumar Bansal",
+      "day_of_week": "Monday",
+      "start_time": "14:00",
+      "end_time": "15:30",
+      "venue": "Room 803",
+      "type": "Lecture"
+    },
+    {
+      "id": "CLS-CE304-L1",
+      "course_code": "CE304",
+      "course_name": "Concrete Technology Lab",
+      "instructor": "Dr. Arun Kumar Singh",
+      "day_of_week": "Monday",
+      "start_time": "16:00",
+      "end_time": "17:30",
+      "venue": "Civil Lab G-01",
+      "type": "Lab"
+    },
+    {
+      "id": "CLS-CE301-2",
+      "course_code": "CE301",
+      "course_name": "Structural Analysis",
+      "instructor": "Dr. Mukesh Kumar Goyal",
+      "day_of_week": "Tuesday",
+      "start_time": "09:00",
+      "end_time": "10:30",
+      "venue": "Room 801",
+      "type": "Lecture"
+    },
+    {
+      "id": "CLS-CE305-1",
+      "course_code": "CE305",
+      "course_name": "Transportation Engineering",
+      "instructor": "Prof. Jayant Vyas",
+      "day_of_week": "Tuesday",
+      "start_time": "11:00",
+      "end_time": "12:30",
+      "venue": "Room 804",
+      "type": "Lecture"
+    },
+    {
+      "id": "CLS-MA301-CE1",
+      "course_code": "MA301",
+      "course_name": "Engineering Mathematics III",
+      "instructor": "Prof. Neelam Saxena",
+      "day_of_week": "Tuesday",
+      "start_time": "14:00",
+      "end_time": "15:30",
+      "venue": "Room 206",
+      "type": "Lecture"
+    },
+    {
+      "id": "CLS-CE302-L1",
+      "course_code": "CE302",
+      "course_name": "Geotechnical Engineering",
+      "instructor": "Dr. Seema Rawat",
+      "day_of_week": "Tuesday",
+      "start_time": "16:00",
+      "end_time": "17:30",
+      "venue": "Civil Lab G-02",
+      "type": "Lab"
+    },
+    {
+      "id": "CLS-CE303-T1",
+      "course_code": "CE303",
+      "course_name": "Hydraulics & Hydraulic Machinery",
+      "instructor": "Dr. Rakesh Kumar Bansal",
+      "day_of_week": "Wednesday",
+      "start_time": "09:00",
+      "end_time": "10:00",
+      "venue": "Room 803",
+      "type": "Tutorial"
+    },
+    {
+      "id": "CLS-CE304-1",
+      "course_code": "CE304",
+      "course_name": "Concrete Technology Lab",
+      "instructor": "Dr. Arun Kumar Singh",
+      "day_of_week": "Wednesday",
+      "start_time": "11:00",
+      "end_time": "12:30",
+      "venue": "Room 805",
+      "type": "Lecture"
+    },
+    {
+      "id": "CLS-CE306-1",
+      "course_code": "CE306",
+      "course_name": "Environmental Engineering",
+      "instructor": "Dr. Shobha Laxmi Pandey",
+      "day_of_week": "Wednesday",
+      "start_time": "14:00",
+      "end_time": "15:30",
+      "venue": "Room 806",
+      "type": "Lecture"
+    },
+    {
+      "id": "CLS-CE303-L1",
+      "course_code": "CE303",
+      "course_name": "Hydraulics & Hydraulic Machinery",
+      "instructor": "Dr. Rakesh Kumar Bansal",
+      "day_of_week": "Wednesday",
+      "start_time": "16:00",
+      "end_time": "17:30",
+      "venue": "Civil Lab G-03",
+      "type": "Lab"
+    },
+    {
+      "id": "CLS-CE302-2",
+      "course_code": "CE302",
+      "course_name": "Geotechnical Engineering",
+      "instructor": "Dr. Seema Rawat",
+      "day_of_week": "Thursday",
+      "start_time": "09:00",
+      "end_time": "10:30",
+      "venue": "Room 802",
+      "type": "Lecture"
+    },
+    {
+      "id": "CLS-MA301-CET1",
+      "course_code": "MA301",
+      "course_name": "Engineering Mathematics III",
+      "instructor": "Prof. Neelam Saxena",
+      "day_of_week": "Thursday",
+      "start_time": "11:00",
+      "end_time": "12:00",
+      "venue": "Room 206",
+      "type": "Tutorial"
+    },
+    {
+      "id": "CLS-CE305-2",
+      "course_code": "CE305",
+      "course_name": "Transportation Engineering",
+      "instructor": "Prof. Jayant Vyas",
+      "day_of_week": "Thursday",
+      "start_time": "14:00",
+      "end_time": "15:30",
+      "venue": "Room 804",
+      "type": "Lecture"
+    },
+    {
+      "id": "CLS-HS301-CE1",
+      "course_code": "HS301",
+      "course_name": "Technical Communication & Ethics",
+      "instructor": "Prof. Meera Krishnamurthy",
+      "day_of_week": "Thursday",
+      "start_time": "16:00",
+      "end_time": "17:00",
+      "venue": "Room 106",
+      "type": "Lecture"
+    },
+    {
+      "id": "CLS-CE301-T1",
+      "course_code": "CE301",
+      "course_name": "Structural Analysis",
+      "instructor": "Dr. Mukesh Kumar Goyal",
+      "day_of_week": "Friday",
+      "start_time": "09:00",
+      "end_time": "10:00",
+      "venue": "Room 801",
+      "type": "Tutorial"
+    },
+    {
+      "id": "CLS-CE306-2",
+      "course_code": "CE306",
+      "course_name": "Environmental Engineering",
+      "instructor": "Dr. Shobha Laxmi Pandey",
+      "day_of_week": "Friday",
+      "start_time": "11:00",
+      "end_time": "12:30",
+      "venue": "Room 806",
+      "type": "Lecture"
+    },
+    {
+      "id": "CLS-CE305-L1",
+      "course_code": "CE305",
+      "course_name": "Transportation Engineering",
+      "instructor": "Prof. Jayant Vyas",
+      "day_of_week": "Friday",
+      "start_time": "14:00",
+      "end_time": "15:30",
+      "venue": "Civil Lab G-04",
+      "type": "Lab"
+    },
+    {
+      "id": "CLS-CE306-T1",
+      "course_code": "CE306",
+      "course_name": "Environmental Engineering",
+      "instructor": "Dr. Shobha Laxmi Pandey",
+      "day_of_week": "Friday",
+      "start_time": "16:00",
+      "end_time": "17:00",
+      "venue": "Room 806",
+      "type": "Tutorial"
+    }
+  ],
+  "exams": [
+    {
+      "id": "EX-CS301-MID",
+      "course_code": "CS301",
+      "course_name": "Data Structures & Algorithms",
+      "date": "2026-06-19",
+      "start_time": "10:00",
+      "end_time": "12:00",
+      "venue": "Main Examination Hall A",
+      "type": "Midterm",
+      "weightage": 30
+    },
+    {
+      "id": "EX-CS302-MID",
+      "course_code": "CS302",
+      "course_name": "Object-Oriented Programming",
+      "date": "2026-06-21",
+      "start_time": "10:00",
+      "end_time": "12:00",
+      "venue": "Main Examination Hall A",
+      "type": "Midterm",
+      "weightage": 30
+    },
+    {
+      "id": "EX-CS303-MID",
+      "course_code": "CS303",
+      "course_name": "Discrete Mathematics",
+      "date": "2026-06-23",
+      "start_time": "10:00",
+      "end_time": "12:00",
+      "venue": "Main Examination Hall B",
+      "type": "Midterm",
+      "weightage": 30
+    },
+    {
+      "id": "EX-CS304-MID",
+      "course_code": "CS304",
+      "course_name": "Digital Logic Design",
+      "date": "2026-06-25",
+      "start_time": "10:00",
+      "end_time": "12:00",
+      "venue": "Main Examination Hall B",
+      "type": "Midterm",
+      "weightage": 30
+    },
+    {
+      "id": "EX-CS305-MID",
+      "course_code": "CS305",
+      "course_name": "Computer Organization & Architecture",
+      "date": "2026-06-27",
+      "start_time": "10:00",
+      "end_time": "12:00",
+      "venue": "Main Examination Hall A",
+      "type": "Midterm",
+      "weightage": 30
+    },
+    {
+      "id": "EX-CS306-MID",
+      "course_code": "CS306",
+      "course_name": "Theory of Computation",
+      "date": "2026-06-29",
+      "start_time": "10:00",
+      "end_time": "12:00",
+      "venue": "Main Examination Hall C",
+      "type": "Midterm",
+      "weightage": 30
+    },
+    {
+      "id": "EX-MA301-CS-MID",
+      "course_code": "MA301",
+      "course_name": "Engineering Mathematics III",
+      "date": "2026-06-17",
+      "start_time": "10:00",
+      "end_time": "12:00",
+      "venue": "Main Examination Hall D",
+      "type": "Midterm",
+      "weightage": 30
+    },
+    {
+      "id": "EX-HS301-CS-MID",
+      "course_code": "HS301",
+      "course_name": "Technical Communication & Ethics",
+      "date": "2026-06-30",
+      "start_time": "14:00",
+      "end_time": "15:30",
+      "venue": "Seminar Hall SH-01",
+      "type": "Midterm",
+      "weightage": 20
+    },
+    {
+      "id": "EX-CS301-FIN",
+      "course_code": "CS301",
+      "course_name": "Data Structures & Algorithms",
+      "date": "2026-08-24",
+      "start_time": "10:00",
+      "end_time": "13:00",
+      "venue": "Main Examination Hall A",
+      "type": "Final",
+      "weightage": 50
+    },
+    {
+      "id": "EX-CS302-FIN",
+      "course_code": "CS302",
+      "course_name": "Object-Oriented Programming",
+      "date": "2026-08-26",
+      "start_time": "10:00",
+      "end_time": "13:00",
+      "venue": "Main Examination Hall A",
+      "type": "Final",
+      "weightage": 50
+    },
+    {
+      "id": "EX-CS303-FIN",
+      "course_code": "CS303",
+      "course_name": "Discrete Mathematics",
+      "date": "2026-08-28",
+      "start_time": "10:00",
+      "end_time": "13:00",
+      "venue": "Main Examination Hall B",
+      "type": "Final",
+      "weightage": 50
+    },
+    {
+      "id": "EX-CS304-FIN",
+      "course_code": "CS304",
+      "course_name": "Digital Logic Design",
+      "date": "2026-09-01",
+      "start_time": "10:00",
+      "end_time": "13:00",
+      "venue": "Main Examination Hall B",
+      "type": "Final",
+      "weightage": 50
+    },
+    {
+      "id": "EX-CS305-FIN",
+      "course_code": "CS305",
+      "course_name": "Computer Organization & Architecture",
+      "date": "2026-09-03",
+      "start_time": "10:00",
+      "end_time": "13:00",
+      "venue": "Main Examination Hall A",
+      "type": "Final",
+      "weightage": 50
+    },
+    {
+      "id": "EX-CS306-FIN",
+      "course_code": "CS306",
+      "course_name": "Theory of Computation",
+      "date": "2026-09-05",
+      "start_time": "10:00",
+      "end_time": "13:00",
+      "venue": "Main Examination Hall C",
+      "type": "Final",
+      "weightage": 50
+    },
+    {
+      "id": "EX-MA301-CS-FIN",
+      "course_code": "MA301",
+      "course_name": "Engineering Mathematics III",
+      "date": "2026-08-22",
+      "start_time": "10:00",
+      "end_time": "13:00",
+      "venue": "Main Examination Hall D",
+      "type": "Final",
+      "weightage": 50
+    },
+    {
+      "id": "EX-HS301-CS-FIN",
+      "course_code": "HS301",
+      "course_name": "Technical Communication & Ethics",
+      "date": "2026-09-07",
+      "start_time": "10:00",
+      "end_time": "12:00",
+      "venue": "Seminar Hall SH-01",
+      "type": "Final",
+      "weightage": 50
+    },
+    {
+      "id": "EX-EC301-MID",
+      "course_code": "EC301",
+      "course_name": "Analog Electronics",
+      "date": "2026-06-19",
+      "start_time": "14:00",
+      "end_time": "16:00",
+      "venue": "Main Examination Hall B",
+      "type": "Midterm",
+      "weightage": 30
+    },
+    {
+      "id": "EX-EC302-MID",
+      "course_code": "EC302",
+      "course_name": "Signals & Systems",
+      "date": "2026-06-21",
+      "start_time": "14:00",
+      "end_time": "16:00",
+      "venue": "Main Examination Hall C",
+      "type": "Midterm",
+      "weightage": 30
+    },
+    {
+      "id": "EX-EC303-MID",
+      "course_code": "EC303",
+      "course_name": "Electromagnetic Field Theory",
+      "date": "2026-06-23",
+      "start_time": "14:00",
+      "end_time": "16:00",
+      "venue": "Main Examination Hall A",
+      "type": "Midterm",
+      "weightage": 30
+    },
+    {
+      "id": "EX-EC304-MID",
+      "course_code": "EC304",
+      "course_name": "Digital Communication",
+      "date": "2026-06-25",
+      "start_time": "14:00",
+      "end_time": "16:00",
+      "venue": "Main Examination Hall C",
+      "type": "Midterm",
+      "weightage": 30
+    },
+    {
+      "id": "EX-EC305-MID",
+      "course_code": "EC305",
+      "course_name": "Microprocessors & Embedded Systems",
+      "date": "2026-06-27",
+      "start_time": "14:00",
+      "end_time": "16:00",
+      "venue": "Main Examination Hall B",
+      "type": "Midterm",
+      "weightage": 30
+    },
+    {
+      "id": "EX-EC306-MID",
+      "course_code": "EC306",
+      "course_name": "Control Systems",
+      "date": "2026-06-30",
+      "start_time": "10:00",
+      "end_time": "12:00",
+      "venue": "Main Examination Hall A",
+      "type": "Midterm",
+      "weightage": 30
+    },
+    {
+      "id": "EX-EC301-FIN",
+      "course_code": "EC301",
+      "course_name": "Analog Electronics",
+      "date": "2026-08-24",
+      "start_time": "14:00",
+      "end_time": "17:00",
+      "venue": "Main Examination Hall B",
+      "type": "Final",
+      "weightage": 50
+    },
+    {
+      "id": "EX-EC302-FIN",
+      "course_code": "EC302",
+      "course_name": "Signals & Systems",
+      "date": "2026-08-26",
+      "start_time": "14:00",
+      "end_time": "17:00",
+      "venue": "Main Examination Hall C",
+      "type": "Final",
+      "weightage": 50
+    },
+    {
+      "id": "EX-EC303-FIN",
+      "course_code": "EC303",
+      "course_name": "Electromagnetic Field Theory",
+      "date": "2026-08-28",
+      "start_time": "14:00",
+      "end_time": "17:00",
+      "venue": "Main Examination Hall A",
+      "type": "Final",
+      "weightage": 50
+    },
+    {
+      "id": "EX-EC304-FIN",
+      "course_code": "EC304",
+      "course_name": "Digital Communication",
+      "date": "2026-09-01",
+      "start_time": "14:00",
+      "end_time": "17:00",
+      "venue": "Main Examination Hall C",
+      "type": "Final",
+      "weightage": 50
+    },
+    {
+      "id": "EX-EC305-FIN",
+      "course_code": "EC305",
+      "course_name": "Microprocessors & Embedded Systems",
+      "date": "2026-09-03",
+      "start_time": "14:00",
+      "end_time": "17:00",
+      "venue": "Main Examination Hall B",
+      "type": "Final",
+      "weightage": 50
+    },
+    {
+      "id": "EX-EC306-FIN",
+      "course_code": "EC306",
+      "course_name": "Control Systems",
+      "date": "2026-09-05",
+      "start_time": "10:00",
+      "end_time": "13:00",
+      "venue": "Main Examination Hall A",
+      "type": "Final",
+      "weightage": 50
+    },
+    {
+      "id": "EX-EE301-MID",
+      "course_code": "EE301",
+      "course_name": "Electrical Machines I",
+      "date": "2026-06-20",
+      "start_time": "10:00",
+      "end_time": "12:00",
+      "venue": "Main Examination Hall C",
+      "type": "Midterm",
+      "weightage": 30
+    },
+    {
+      "id": "EX-EE302-MID",
+      "course_code": "EE302",
+      "course_name": "Power Systems Analysis",
+      "date": "2026-06-22",
+      "start_time": "10:00",
+      "end_time": "12:00",
+      "venue": "Main Examination Hall D",
+      "type": "Midterm",
+      "weightage": 30
+    },
+    {
+      "id": "EX-EE303-MID",
+      "course_code": "EE303",
+      "course_name": "Circuit Theory & Networks",
+      "date": "2026-06-24",
+      "start_time": "10:00",
+      "end_time": "12:00",
+      "venue": "Main Examination Hall C",
+      "type": "Midterm",
+      "weightage": 30
+    },
+    {
+      "id": "EX-EE304-MID",
+      "course_code": "EE304",
+      "course_name": "Power Electronics",
+      "date": "2026-06-26",
+      "start_time": "10:00",
+      "end_time": "12:00",
+      "venue": "Main Examination Hall D",
+      "type": "Midterm",
+      "weightage": 30
+    },
+    {
+      "id": "EX-EE305-MID",
+      "course_code": "EE305",
+      "course_name": "Control Systems Engineering",
+      "date": "2026-06-28",
+      "start_time": "10:00",
+      "end_time": "12:00",
+      "venue": "Main Examination Hall C",
+      "type": "Midterm",
+      "weightage": 30
+    },
+    {
+      "id": "EX-EE301-FIN",
+      "course_code": "EE301",
+      "course_name": "Electrical Machines I",
+      "date": "2026-08-25",
+      "start_time": "10:00",
+      "end_time": "13:00",
+      "venue": "Main Examination Hall C",
+      "type": "Final",
+      "weightage": 50
+    },
+    {
+      "id": "EX-EE302-FIN",
+      "course_code": "EE302",
+      "course_name": "Power Systems Analysis",
+      "date": "2026-08-27",
+      "start_time": "10:00",
+      "end_time": "13:00",
+      "venue": "Main Examination Hall D",
+      "type": "Final",
+      "weightage": 50
+    },
+    {
+      "id": "EX-EE303-FIN",
+      "course_code": "EE303",
+      "course_name": "Circuit Theory & Networks",
+      "date": "2026-08-29",
+      "start_time": "10:00",
+      "end_time": "13:00",
+      "venue": "Main Examination Hall C",
+      "type": "Final",
+      "weightage": 50
+    },
+    {
+      "id": "EX-EE304-FIN",
+      "course_code": "EE304",
+      "course_name": "Power Electronics",
+      "date": "2026-09-02",
+      "start_time": "10:00",
+      "end_time": "13:00",
+      "venue": "Main Examination Hall D",
+      "type": "Final",
+      "weightage": 50
+    },
+    {
+      "id": "EX-EE305-FIN",
+      "course_code": "EE305",
+      "course_name": "Control Systems Engineering",
+      "date": "2026-09-04",
+      "start_time": "10:00",
+      "end_time": "13:00",
+      "venue": "Main Examination Hall C",
+      "type": "Final",
+      "weightage": 50
+    },
+    {
+      "id": "EX-ME301-MID",
+      "course_code": "ME301",
+      "course_name": "Thermodynamics",
+      "date": "2026-06-20",
+      "start_time": "14:00",
+      "end_time": "16:00",
+      "venue": "Main Examination Hall A",
+      "type": "Midterm",
+      "weightage": 30
+    },
+    {
+      "id": "EX-ME302-MID",
+      "course_code": "ME302",
+      "course_name": "Strength of Materials",
+      "date": "2026-06-22",
+      "start_time": "14:00",
+      "end_time": "16:00",
+      "venue": "Main Examination Hall B",
+      "type": "Midterm",
+      "weightage": 30
+    },
+    {
+      "id": "EX-ME303-MID",
+      "course_code": "ME303",
+      "course_name": "Fluid Mechanics",
+      "date": "2026-06-24",
+      "start_time": "14:00",
+      "end_time": "16:00",
+      "venue": "Main Examination Hall D",
+      "type": "Midterm",
+      "weightage": 30
+    },
+    {
+      "id": "EX-ME304-MID",
+      "course_code": "ME304",
+      "course_name": "Manufacturing Processes",
+      "date": "2026-06-26",
+      "start_time": "14:00",
+      "end_time": "16:00",
+      "venue": "Main Examination Hall A",
+      "type": "Midterm",
+      "weightage": 30
+    },
+    {
+      "id": "EX-ME305-MID",
+      "course_code": "ME305",
+      "course_name": "Kinematics of Machines",
+      "date": "2026-06-28",
+      "start_time": "14:00",
+      "end_time": "16:00",
+      "venue": "Main Examination Hall B",
+      "type": "Midterm",
+      "weightage": 30
+    },
+    {
+      "id": "EX-ME306-MID",
+      "course_code": "ME306",
+      "course_name": "Engineering Drawing & CAD",
+      "date": "2026-07-01",
+      "start_time": "10:00",
+      "end_time": "13:00",
+      "venue": "Drawing Hall DH-02",
+      "type": "Midterm",
+      "weightage": 25
+    },
+    {
+      "id": "EX-ME301-FIN",
+      "course_code": "ME301",
+      "course_name": "Thermodynamics",
+      "date": "2026-08-25",
+      "start_time": "14:00",
+      "end_time": "17:00",
+      "venue": "Main Examination Hall A",
+      "type": "Final",
+      "weightage": 50
+    },
+    {
+      "id": "EX-ME302-FIN",
+      "course_code": "ME302",
+      "course_name": "Strength of Materials",
+      "date": "2026-08-27",
+      "start_time": "14:00",
+      "end_time": "17:00",
+      "venue": "Main Examination Hall B",
+      "type": "Final",
+      "weightage": 50
+    },
+    {
+      "id": "EX-ME303-FIN",
+      "course_code": "ME303",
+      "course_name": "Fluid Mechanics",
+      "date": "2026-08-29",
+      "start_time": "14:00",
+      "end_time": "17:00",
+      "venue": "Main Examination Hall D",
+      "type": "Final",
+      "weightage": 50
+    },
+    {
+      "id": "EX-ME304-FIN",
+      "course_code": "ME304",
+      "course_name": "Manufacturing Processes",
+      "date": "2026-09-02",
+      "start_time": "14:00",
+      "end_time": "17:00",
+      "venue": "Main Examination Hall A",
+      "type": "Final",
+      "weightage": 50
+    },
+    {
+      "id": "EX-ME305-FIN",
+      "course_code": "ME305",
+      "course_name": "Kinematics of Machines",
+      "date": "2026-09-04",
+      "start_time": "14:00",
+      "end_time": "17:00",
+      "venue": "Main Examination Hall B",
+      "type": "Final",
+      "weightage": 50
+    },
+    {
+      "id": "EX-ME306-FIN",
+      "course_code": "ME306",
+      "course_name": "Engineering Drawing & CAD",
+      "date": "2026-09-06",
+      "start_time": "10:00",
+      "end_time": "13:00",
+      "venue": "Drawing Hall DH-02",
+      "type": "Final",
+      "weightage": 50
+    },
+    {
+      "id": "EX-CH301-MID",
+      "course_code": "CH301",
+      "course_name": "Chemical Process Calculations",
+      "date": "2026-06-19",
+      "start_time": "10:00",
+      "end_time": "12:00",
+      "venue": "Main Examination Hall D",
+      "type": "Midterm",
+      "weightage": 30
+    },
+    {
+      "id": "EX-CH302-MID",
+      "course_code": "CH302",
+      "course_name": "Chemical Engineering Thermodynamics",
+      "date": "2026-06-21",
+      "start_time": "10:00",
+      "end_time": "12:00",
+      "venue": "Main Examination Hall D",
+      "type": "Midterm",
+      "weightage": 30
+    },
+    {
+      "id": "EX-CH303-MID",
+      "course_code": "CH303",
+      "course_name": "Fluid Flow Operations",
+      "date": "2026-06-23",
+      "start_time": "10:00",
+      "end_time": "12:00",
+      "venue": "Main Examination Hall C",
+      "type": "Midterm",
+      "weightage": 30
+    },
+    {
+      "id": "EX-CH304-MID",
+      "course_code": "CH304",
+      "course_name": "Organic Chemistry Lab",
+      "date": "2026-06-25",
+      "start_time": "10:00",
+      "end_time": "12:00",
+      "venue": "Chem Lab F-01",
+      "type": "Midterm",
+      "weightage": 25
+    },
+    {
+      "id": "EX-CH305-MID",
+      "course_code": "CH305",
+      "course_name": "Heat Transfer Operations",
+      "date": "2026-06-27",
+      "start_time": "10:00",
+      "end_time": "12:00",
+      "venue": "Main Examination Hall D",
+      "type": "Midterm",
+      "weightage": 30
+    },
+    {
+      "id": "EX-CH306-MID",
+      "course_code": "CH306",
+      "course_name": "Mass Transfer Operations",
+      "date": "2026-06-30",
+      "start_time": "14:00",
+      "end_time": "16:00",
+      "venue": "Main Examination Hall B",
+      "type": "Midterm",
+      "weightage": 30
+    },
+    {
+      "id": "EX-CH301-FIN",
+      "course_code": "CH301",
+      "course_name": "Chemical Process Calculations",
+      "date": "2026-08-24",
+      "start_time": "10:00",
+      "end_time": "13:00",
+      "venue": "Main Examination Hall D",
+      "type": "Final",
+      "weightage": 50
+    },
+    {
+      "id": "EX-CH302-FIN",
+      "course_code": "CH302",
+      "course_name": "Chemical Engineering Thermodynamics",
+      "date": "2026-08-26",
+      "start_time": "10:00",
+      "end_time": "13:00",
+      "venue": "Main Examination Hall D",
+      "type": "Final",
+      "weightage": 50
+    },
+    {
+      "id": "EX-CH303-FIN",
+      "course_code": "CH303",
+      "course_name": "Fluid Flow Operations",
+      "date": "2026-08-28",
+      "start_time": "10:00",
+      "end_time": "13:00",
+      "venue": "Main Examination Hall C",
+      "type": "Final",
+      "weightage": 50
+    },
+    {
+      "id": "EX-CH304-FIN",
+      "course_code": "CH304",
+      "course_name": "Organic Chemistry Lab",
+      "date": "2026-09-01",
+      "start_time": "10:00",
+      "end_time": "13:00",
+      "venue": "Chem Lab F-01",
+      "type": "Final",
+      "weightage": 50
+    },
+    {
+      "id": "EX-CH305-FIN",
+      "course_code": "CH305",
+      "course_name": "Heat Transfer Operations",
+      "date": "2026-09-03",
+      "start_time": "10:00",
+      "end_time": "13:00",
+      "venue": "Main Examination Hall D",
+      "type": "Final",
+      "weightage": 50
+    },
+    {
+      "id": "EX-CH306-FIN",
+      "course_code": "CH306",
+      "course_name": "Mass Transfer Operations",
+      "date": "2026-09-05",
+      "start_time": "14:00",
+      "end_time": "17:00",
+      "venue": "Main Examination Hall B",
+      "type": "Final",
+      "weightage": 50
+    },
+    {
+      "id": "EX-CE301-MID",
+      "course_code": "CE301",
+      "course_name": "Structural Analysis",
+      "date": "2026-06-20",
+      "start_time": "10:00",
+      "end_time": "12:00",
+      "venue": "Main Examination Hall B",
+      "type": "Midterm",
+      "weightage": 30
+    },
+    {
+      "id": "EX-CE302-MID",
+      "course_code": "CE302",
+      "course_name": "Geotechnical Engineering",
+      "date": "2026-06-22",
+      "start_time": "10:00",
+      "end_time": "12:00",
+      "venue": "Main Examination Hall A",
+      "type": "Midterm",
+      "weightage": 30
+    },
+    {
+      "id": "EX-CE303-MID",
+      "course_code": "CE303",
+      "course_name": "Hydraulics & Hydraulic Machinery",
+      "date": "2026-06-24",
+      "start_time": "10:00",
+      "end_time": "12:00",
+      "venue": "Main Examination Hall B",
+      "type": "Midterm",
+      "weightage": 30
+    },
+    {
+      "id": "EX-CE304-MID",
+      "course_code": "CE304",
+      "course_name": "Concrete Technology Lab",
+      "date": "2026-06-26",
+      "start_time": "10:00",
+      "end_time": "12:00",
+      "venue": "Civil Lab G-01",
+      "type": "Midterm",
+      "weightage": 25
+    },
+    {
+      "id": "EX-CE305-MID",
+      "course_code": "CE305",
+      "course_name": "Transportation Engineering",
+      "date": "2026-06-28",
+      "start_time": "10:00",
+      "end_time": "12:00",
+      "venue": "Main Examination Hall A",
+      "type": "Midterm",
+      "weightage": 30
+    },
+    {
+      "id": "EX-CE306-MID",
+      "course_code": "CE306",
+      "course_name": "Environmental Engineering",
+      "date": "2026-07-01",
+      "start_time": "10:00",
+      "end_time": "12:00",
+      "venue": "Main Examination Hall C",
+      "type": "Midterm",
+      "weightage": 30
+    },
+    {
+      "id": "EX-CE301-FIN",
+      "course_code": "CE301",
+      "course_name": "Structural Analysis",
+      "date": "2026-08-25",
+      "start_time": "10:00",
+      "end_time": "13:00",
+      "venue": "Main Examination Hall B",
+      "type": "Final",
+      "weightage": 50
+    },
+    {
+      "id": "EX-CE302-FIN",
+      "course_code": "CE302",
+      "course_name": "Geotechnical Engineering",
+      "date": "2026-08-27",
+      "start_time": "10:00",
+      "end_time": "13:00",
+      "venue": "Main Examination Hall A",
+      "type": "Final",
+      "weightage": 50
+    },
+    {
+      "id": "EX-CE303-FIN",
+      "course_code": "CE303",
+      "course_name": "Hydraulics & Hydraulic Machinery",
+      "date": "2026-08-29",
+      "start_time": "10:00",
+      "end_time": "13:00",
+      "venue": "Main Examination Hall B",
+      "type": "Final",
+      "weightage": 50
+    },
+    {
+      "id": "EX-CE304-FIN",
+      "course_code": "CE304",
+      "course_name": "Concrete Technology Lab",
+      "date": "2026-09-02",
+      "start_time": "10:00",
+      "end_time": "13:00",
+      "venue": "Civil Lab G-01",
+      "type": "Final",
+      "weightage": 50
+    },
+    {
+      "id": "EX-CE305-FIN",
+      "course_code": "CE305",
+      "course_name": "Transportation Engineering",
+      "date": "2026-09-04",
+      "start_time": "10:00",
+      "end_time": "13:00",
+      "venue": "Main Examination Hall A",
+      "type": "Final",
+      "weightage": 50
+    },
+    {
+      "id": "EX-CE306-FIN",
+      "course_code": "CE306",
+      "course_name": "Environmental Engineering",
+      "date": "2026-09-06",
+      "start_time": "10:00",
+      "end_time": "13:00",
+      "venue": "Main Examination Hall C",
+      "type": "Final",
+      "weightage": 50
+    },
+    {
+      "id": "EX-MA301-MID-COMMON",
+      "course_code": "MA301",
+      "course_name": "Engineering Mathematics III",
+      "date": "2026-06-17",
+      "start_time": "10:00",
+      "end_time": "12:00",
+      "venue": "Main Examination Hall D",
+      "type": "Midterm",
+      "weightage": 30
+    },
+    {
+      "id": "EX-MA301-FIN-COMMON",
+      "course_code": "MA301",
+      "course_name": "Engineering Mathematics III",
+      "date": "2026-08-22",
+      "start_time": "10:00",
+      "end_time": "13:00",
+      "venue": "Main Examination Hall D",
+      "type": "Final",
+      "weightage": 50
+    },
+    {
+      "id": "EX-HS301-MID-COMMON",
+      "course_code": "HS301",
+      "course_name": "Technical Communication & Ethics",
+      "date": "2026-06-30",
+      "start_time": "14:00",
+      "end_time": "15:30",
+      "venue": "Seminar Hall SH-02",
+      "type": "Midterm",
+      "weightage": 20
+    },
+    {
+      "id": "EX-HS301-FIN-COMMON",
+      "course_code": "HS301",
+      "course_name": "Technical Communication & Ethics",
+      "date": "2026-09-07",
+      "start_time": "10:00",
+      "end_time": "12:00",
+      "venue": "Seminar Hall SH-02",
+      "type": "Final",
+      "weightage": 50
+    },
+    {
+      "id": "EX-CS301-QUIZ1",
+      "course_code": "CS301",
+      "course_name": "Data Structures & Algorithms",
+      "date": "2026-05-14",
+      "start_time": "09:00",
+      "end_time": "09:45",
+      "venue": "Room 301",
+      "type": "Quiz",
+      "weightage": 10
+    },
+    {
+      "id": "EX-EC302-QUIZ1",
+      "course_code": "EC302",
+      "course_name": "Signals & Systems",
+      "date": "2026-05-15",
+      "start_time": "11:00",
+      "end_time": "11:45",
+      "venue": "Room 402",
+      "type": "Quiz",
+      "weightage": 10
+    },
+    {
+      "id": "EX-ME301-QUIZ1",
+      "course_code": "ME301",
+      "course_name": "Thermodynamics",
+      "date": "2026-05-16",
+      "start_time": "09:00",
+      "end_time": "09:45",
+      "venue": "Room 601",
+      "type": "Quiz",
+      "weightage": 10
+    },
+    {
+      "id": "EX-CH301-QUIZ1",
+      "course_code": "CH301",
+      "course_name": "Chemical Process Calculations",
+      "date": "2026-05-16",
+      "start_time": "09:00",
+      "end_time": "09:45",
+      "venue": "Room 701",
+      "type": "Quiz",
+      "weightage": 10
+    },
+    {
+      "id": "EX-CE301-QUIZ1",
+      "course_code": "CE301",
+      "course_name": "Structural Analysis",
+      "date": "2026-05-17",
+      "start_time": "09:00",
+      "end_time": "09:45",
+      "venue": "Room 801",
+      "type": "Quiz",
+      "weightage": 10
+    },
+    {
+      "id": "EX-EE303-QUIZ1",
+      "course_code": "EE303",
+      "course_name": "Circuit Theory & Networks",
+      "date": "2026-05-17",
+      "start_time": "09:00",
+      "end_time": "09:45",
+      "venue": "Room 503",
+      "type": "Quiz",
+      "weightage": 10
+    }
+  ],
+  "branchCourses": {
+    "Computer Science Engineering": [
+      "CS301",
+      "CS302",
+      "CS303",
+      "CS304",
+      "CS305",
+      "CS306",
+      "MA301",
+      "HS301"
+    ],
+    "Electronics & Communication Engineering": [
+      "EC301",
+      "EC302",
+      "EC303",
+      "EC304",
+      "EC305",
+      "EC306",
+      "MA301",
+      "HS301"
+    ],
+    "Electrical Engineering": [
+      "EE301",
+      "EE302",
+      "EE303",
+      "EE304",
+      "EE305",
+      "MA301",
+      "HS301"
+    ],
+    "Mechanical Engineering": [
+      "ME301",
+      "ME302",
+      "ME303",
+      "ME304",
+      "ME305",
+      "ME306",
+      "MA301",
+      "HS301"
+    ],
+    "Chemical Engineering": [
+      "CH301",
+      "CH302",
+      "CH303",
+      "CH304",
+      "CH305",
+      "CH306",
+      "MA301",
+      "HS301"
+    ],
+    "Civil Engineering": [
+      "CE301",
+      "CE302",
+      "CE303",
+      "CE304",
+      "CE305",
+      "CE306",
+      "MA301",
+      "HS301"
+    ]
+  },
+  "announcements": [
+    {
+      "id": "ANN-001",
+      "title": "Mid-Semester Examination Schedule Released",
+      "content": "The mid-semester examination schedule for all branches has been released. Examinations will commence from 17th June 2026. Students are advised to check the detailed timetable on the notice board and collect their admit cards from the Academic Section (Admin Block, Ground Floor) between 12th June and 16th June 2026 during working hours. No student will be permitted to appear in the examination without a valid admit card.",
+      "date": "2026-06-10",
+      "target_audience": [
+        "All Students"
+      ]
+    },
+    {
+      "id": "ANN-002",
+      "title": "Attendance Shortage Warning – Action Required",
+      "content": "As per the attendance records updated up to 8th June 2026, a number of students across all branches have fallen below the 75% attendance threshold required for eligibility to appear in the mid-semester examinations. Such students are advised to meet their respective Branch Coordinators immediately for a condonation application. The last date to submit condonation requests is 13th June 2026. Failure to do so will result in automatic debarment from the mid-semester examinations.",
+      "date": "2026-06-09",
+      "target_audience": [
+        "All Students"
+      ]
+    },
+    {
+      "id": "ANN-003",
+      "title": "DSA Lab Assignment – Submission Deadline Extended",
+      "content": "Due to the upcoming mid-semester examinations, the submission deadline for the Data Structures & Algorithms (CS301) Lab Assignment No. 4 on Binary Trees has been extended to 18th June 2026. Students must submit both the hard copy report and the source code via the department portal. Late submissions will attract a 10% penalty per day. For queries, contact Dr. Rajeev Mohan Srivastava at rms@ece.ac.in.",
+      "date": "2026-06-07",
+      "target_audience": [
+        "Computer Science Engineering"
+      ]
+    },
+    {
+      "id": "ANN-004",
+      "title": "Guest Lecture on Power Grid Modernisation – 14th June 2026",
+      "content": "The Department of Electrical Engineering is pleased to announce a guest lecture by Er. Harshvardhan Mehta, Senior Executive Engineer, UP Power Transmission Corporation Ltd., on the topic 'Smart Grid Technologies and the Future of Power Distribution in India'. The lecture will be held on 14th June 2026 (Sunday) at 10:30 AM in Seminar Hall SH-01. Attendance is open to all students and faculty. B.Tech. EE students will receive internal marks credit for attendance.",
+      "date": "2026-06-08",
+      "target_audience": [
+        "Electrical Engineering",
+        "Electronics & Communication Engineering"
+      ]
+    },
+    {
+      "id": "ANN-005",
+      "title": "Industrial Visit – Tata Chemicals Ltd., Babrala – Registration Open",
+      "content": "The Department of Chemical Engineering is organising an industrial visit to Tata Chemicals Ltd., Babrala, Uttar Pradesh, on 5th July 2026. The visit is open to 3rd-year Chemical Engineering students. Students interested in participating must register by submitting the duly filled consent form along with a fee of ₹350 at the department office by 20th June 2026. Only the first 40 applicants will be accommodated. Transportation and lunch will be provided.",
+      "date": "2026-06-06",
+      "target_audience": [
+        "Chemical Engineering"
+      ]
+    },
+    {
+      "id": "ANN-006",
+      "title": "CAD Software Workshop – SolidWorks & AutoCAD",
+      "content": "The Department of Mechanical Engineering, in association with the Training & Placement Cell, is conducting a two-day hands-on workshop on SolidWorks 2025 and AutoCAD 2026 for B.Tech. Mechanical Engineering students. The workshop will be held on 21st and 22nd June 2026 in CAD Lab CAD-01. Participants must register by 15th June 2026 at the Mechanical Engineering Department office. Registration fee: ₹200 (refundable on 90% workshop attendance). Certificate of participation will be issued.",
+      "date": "2026-06-05",
+      "target_audience": [
+        "Mechanical Engineering"
+      ]
+    },
+    {
+      "id": "ANN-007",
+      "title": "Library Closure During Mid-Semester Examinations",
+      "content": "The Central Library will observe extended working hours (8:00 AM to 10:00 PM) from 14th June to 1st July 2026 to support students during the mid-semester examination period. However, the library will remain closed on 20th June 2026 (Saturday) on account of a scheduled maintenance shutdown. Students are requested to plan their study schedules accordingly. Overdue fines will continue to accrue during this period.",
+      "date": "2026-06-10",
+      "target_audience": [
+        "All Students"
+      ]
+    },
+    {
+      "id": "ANN-008",
+      "title": "National Level Technical Paper Presentation – Submissions Invited",
+      "content": "TECHNOVA 2026, the annual national-level technical paper presentation competition organised by the Student Technical Council, will be held on 12th–13th September 2026. Students from all branches are invited to submit abstracts (300–500 words) by 15th July 2026 via the official portal at technova.institute.ac.in. Selected teams will be notified by 1st August 2026. Best paper awards carry a cash prize of ₹15,000. Teams may consist of 2–4 members.",
+      "date": "2026-06-04",
+      "target_audience": [
+        "All Students"
+      ]
+    },
+    {
+      "id": "ANN-009",
+      "title": "Revised Academic Calendar – Compensatory Classes",
+      "content": "Due to the two unscheduled holidays observed on 9th April and 2nd May 2026, the Academic Section has revised the class schedule for the current semester. Compensatory classes for the affected batches will be held on the following Saturdays: 20th June, 4th July, and 18th July 2026 from 8:00 AM to 1:00 PM. The detailed compensatory timetable for each branch is available on the institute notice board and the student ERP portal.",
+      "date": "2026-06-03",
+      "target_audience": [
+        "All Students"
+      ]
+    },
+    {
+      "id": "ANN-010",
+      "title": "Civil Engineering Soil Testing Field Trip – Notification",
+      "content": "As a part of the Geotechnical Engineering (CE302) course curriculum, a mandatory field visit to the Institute Soil Testing Laboratory and the Yamuna Riverbed sampling site near Bijnor has been scheduled for 28th June 2026. All 3rd-year Civil Engineering students must attend. Departure will be at 7:00 AM from the main gate. Students must bring their laboratory journals and wear institute-issued PPE. Last date to submit the consent and indemnity form: 18th June 2026.",
+      "date": "2026-06-02",
+      "target_audience": [
+        "Civil Engineering"
+      ]
+    },
+    {
+      "id": "ANN-011",
+      "title": "Anti-Ragging Compliance – Affidavit Submission Reminder",
+      "content": "As mandated by the Hon'ble Supreme Court of India and UGC regulations, all students are required to submit a signed anti-ragging affidavit for the current academic year. Students who have not yet submitted the affidavit are directed to do so at the Administrative Section, 1st Floor, Admin Block, on any working day before 20th June 2026. Non-compliance will lead to disciplinary action as per the institute's Anti-Ragging Policy.",
+      "date": "2026-06-01",
+      "target_audience": [
+        "All Students"
+      ]
+    },
+    {
+      "id": "ANN-012",
+      "title": "Theory of Computation – Additional Study Material Uploaded",
+      "content": "Additional reference notes and solved previous-year question papers for Theory of Computation (CS306) covering Regular Languages, Context-Free Grammars, and Turing Machines have been uploaded to the course page on the student portal. Students are strongly advised to go through this material before the mid-semester examination. For doubts, contact Dr. Pradeep Nair during office hours (Tuesday & Thursday, 1:00 PM – 2:00 PM, Room 309).",
+      "date": "2026-06-08",
+      "target_audience": [
+        "Computer Science Engineering"
+      ]
+    },
+    {
+      "id": "ANN-013",
+      "title": "Electromagnetic Field Theory – Course Correction Notice",
+      "content": "Students of Electronics & Communication Engineering are informed that the topic 'Wave Propagation in Lossy Dielectrics' (Unit IV, EC303) has been rescheduled and will now be covered after the mid-semester examinations. The mid-semester question paper will therefore be limited to Units I, II, and III only. The updated course plan has been shared by Prof. Girish Chandra Mishra via the ERP portal.",
+      "date": "2026-06-09",
+      "target_audience": [
+        "Electronics & Communication Engineering"
+      ]
+    },
+    {
+      "id": "ANN-014",
+      "title": "Training & Placement Cell – Pre-Placement Orientation",
+      "content": "The Training & Placement Cell will conduct a pre-placement orientation session for all final and pre-final year students on 16th June 2026 at 3:00 PM in the Main Auditorium. The session will cover resume building, aptitude test preparation, and interview etiquette. Attendance is mandatory for all students registered with the placement cell. Students who have not yet registered are requested to do so at tpc@institute.ac.in before 14th June 2026.",
+      "date": "2026-06-06",
+      "target_audience": [
+        "All Students"
+      ]
+    }
+  ]
+}
