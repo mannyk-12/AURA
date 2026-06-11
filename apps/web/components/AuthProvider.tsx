@@ -3,7 +3,7 @@
 import { createContext, useContext, useEffect, useState, ReactNode } from "react";
 import { User, onAuthStateChanged, setPersistence, browserSessionPersistence } from "firebase/auth";
 import { auth, db } from "@/lib/firebase/client";
-import { doc, getDoc } from "firebase/firestore";
+import { doc, getDoc, onSnapshot } from "firebase/firestore";
 import { useRouter, usePathname } from "next/navigation";
 
 interface UserProfile {
@@ -36,25 +36,34 @@ export const AuthProvider = ({ children }: { children: ReactNode }) => {
     // Set persistence to session so different tabs can have different users
     setPersistence(auth, browserSessionPersistence).catch(console.error);
 
+    let profileUnsubscribe: (() => void) | undefined;
+
     const unsubscribe = onAuthStateChanged(auth, async (currentUser) => {
       if (currentUser) {
         setUser(currentUser);
         const profileRef = doc(db, "users", currentUser.uid);
-        const profileSnap = await getDoc(profileRef);
         
-        if (profileSnap.exists()) {
-          setProfile(profileSnap.data() as UserProfile);
-        } else {
-          setProfile(null);
-        }
+        // Listen to profile changes in real-time
+        profileUnsubscribe = onSnapshot(profileRef, (profileSnap) => {
+          if (profileSnap.exists()) {
+            setProfile(profileSnap.data() as UserProfile);
+          } else {
+            setProfile(null);
+          }
+          setLoading(false);
+        });
       } else {
         setUser(null);
         setProfile(null);
+        if (profileUnsubscribe) profileUnsubscribe();
+        setLoading(false);
       }
-      setLoading(false);
     });
 
-    return () => unsubscribe();
+    return () => {
+      unsubscribe();
+      if (profileUnsubscribe) profileUnsubscribe();
+    };
   }, []);
 
   useEffect(() => {
