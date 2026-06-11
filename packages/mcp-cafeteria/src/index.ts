@@ -54,6 +54,11 @@ function createMcpServer() {
         }
       },
       {
+        name: "get_full_menu",
+        description: "Get every single item available in the entire cafeteria menu, ignoring dates.",
+        inputSchema: { type: "object", properties: {} }
+      },
+      {
         name: "get_weekly_specials",
         description: "Get this week's special combo meals and promotional items.",
         inputSchema: { type: "object", properties: {} }
@@ -98,6 +103,9 @@ function createMcpServer() {
       switch (name) {
         case "get_menu_for_date":
           result = await cafeteriaService.getMenuForDate(GetMenuForDateSchema.parse(args || {}));
+          break;
+        case "get_full_menu":
+          result = await cafeteriaService.getFullMenu();
           break;
         case "get_weekly_specials":
           result = await cafeteriaService.getWeeklySpecials();

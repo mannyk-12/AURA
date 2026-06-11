@@ -61,15 +61,16 @@ export const AuthProvider = ({ children }: { children: ReactNode }) => {
     if (loading) return;
 
     const isAuthRoute = pathname === "/login";
+    const isPublicRoute = pathname === "/";
     const hasProfile = !!profile?.onboardingComplete;
 
     if (!user) {
-      if (!isAuthRoute) router.push("/login");
+      if (!isAuthRoute && !isPublicRoute) router.push("/login");
     } else {
       if (!hasProfile) {
-        if (!isAuthRoute) router.push("/login");
+        if (!isAuthRoute && !isPublicRoute) router.push("/login");
       } else {
-        if (isAuthRoute) router.push("/");
+        if (isAuthRoute || isPublicRoute) router.push("/dashboard");
       }
     }
   }, [user, profile, loading, pathname, router]);
@@ -84,11 +85,12 @@ export const AuthProvider = ({ children }: { children: ReactNode }) => {
   }
 
   const isAuthRoute = pathname === "/login";
+  const isPublicRoute = pathname === "/";
   const hasProfile = !!profile?.onboardingComplete;
   
   // Protect routes from rendering
-  if (!user && !isAuthRoute) return null;
-  if (user && !hasProfile && !isAuthRoute) return null;
+  if (!user && !isAuthRoute && !isPublicRoute) return null;
+  if (user && !hasProfile && !isAuthRoute && !isPublicRoute) return null;
 
   return (
     <AuthContext.Provider value={{ user, profile, loading }}>

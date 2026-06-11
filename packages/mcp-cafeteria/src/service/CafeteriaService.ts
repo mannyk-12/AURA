@@ -20,6 +20,10 @@ export class CafeteriaService {
     return { [args.meal_type]: dailyMenu[args.meal_type] };
   }
 
+  async getFullMenu() {
+    return await this.repository.getAllMenus();
+  }
+
   async getWeeklySpecials() {
     const specials: MenuItem[] = [];
     const allMenus = await this.repository.getAllMenus();

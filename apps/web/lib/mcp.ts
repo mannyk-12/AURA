@@ -1,5 +1,6 @@
 import { Client } from "@modelcontextprotocol/sdk/client/index.js";
 import { SSEClientTransport } from "@modelcontextprotocol/sdk/client/sse.js";
+// Force hot reload to clear MCP tool cache
 import { FunctionDeclaration, Type } from "@google/genai";
 // Polyfill EventSource for Node.js environment
 if (!global.EventSource) {
