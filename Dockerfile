@@ -1,11 +1,11 @@
-FROM node:22-slim AS base
+FROM node:22-slim
 ENV PNPM_HOME="/pnpm"
 ENV PATH="$PNPM_HOME:$PATH"
 RUN corepack enable
 
-FROM base AS builder
 WORKDIR /app
 COPY . .
+
 # Install dependencies
 RUN pnpm install --frozen-lockfile
 
@@ -13,26 +13,11 @@ RUN pnpm install --frozen-lockfile
 WORKDIR /app/apps/web
 RUN pnpm run build
 
-FROM base AS runner
-WORKDIR /app
-
-# Install concurrently and tsx to run all servers
+# Install global runners
 RUN npm install -g concurrently tsx
 
-# Copy dependencies
-COPY --from=builder /app/node_modules ./node_modules
-COPY --from=builder /app/package.json ./package.json
-COPY --from=builder /app/pnpm-lock.yaml ./pnpm-lock.yaml
-COPY --from=builder /app/pnpm-workspace.yaml ./pnpm-workspace.yaml
-
-# Copy Next.js app
-COPY --from=builder /app/apps/web/.next ./apps/web/.next
-COPY --from=builder /app/apps/web/public ./apps/web/public
-COPY --from=builder /app/apps/web/package.json ./apps/web/package.json
-COPY --from=builder /app/apps/web/.env.production ./apps/web/.env.production
-
-# Copy all MCP packages
-COPY --from=builder /app/packages ./packages
+# Set working directory back to root to run all servers
+WORKDIR /app
 
 # Expose Next.js port
 EXPOSE 3000
