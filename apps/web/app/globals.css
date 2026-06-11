@@ -193,11 +193,10 @@ body {
   background-size: cover;
   background-position: center;
   position: relative;
-  overflow: hidden;
 }
 
 .stars-overlay {
-  position: absolute;
+  position: fixed;
   top: 0; left: 0; right: 0; bottom: 0;
   background-image: 
     radial-gradient(2px 2px at 20px 30px, #ffffff, rgba(0,0,0,0)),
