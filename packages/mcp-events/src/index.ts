@@ -190,5 +190,5 @@ app.post("/messages", async (req, res) => {
 
 app.get("/health", (req, res) => res.json({ status: "ok" }));
 
-const PORT = process.env.PORT || 3003;
+const PORT = 3003;
 app.listen(PORT, () => console.log(`Events MCP server running on port ${PORT}`));

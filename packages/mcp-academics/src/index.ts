@@ -154,5 +154,5 @@ app.post("/messages", async (req, res) => {
 
 app.get("/health", (req, res) => res.json({ status: "ok" }));
 
-const PORT = process.env.PORT || 3004;
+const PORT = 3004;
 app.listen(PORT, () => console.log(`Academics MCP server running on port ${PORT}`));

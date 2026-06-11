@@ -155,5 +155,5 @@ app.post("/messages", async (req, res) => {
 
 app.get("/health", (req, res) => res.json({ status: "ok" }));
 
-const PORT = process.env.PORT || 3002;
+const PORT = 3002;
 app.listen(PORT, () => console.log(`Cafeteria MCP server running on port ${PORT}`));
