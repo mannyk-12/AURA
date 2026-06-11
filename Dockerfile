@@ -17,7 +17,7 @@ FROM base AS runner
 WORKDIR /app
 
 # Install concurrently and tsx to run all servers
-RUN pnpm add -g concurrently tsx
+RUN npm install -g concurrently tsx
 
 # Copy dependencies
 COPY --from=builder /app/node_modules ./node_modules
