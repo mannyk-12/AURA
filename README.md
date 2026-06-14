@@ -83,7 +83,7 @@ subgraph Backend["⚡ Next.js Server Layer"]
 end
 
 subgraph AI["🤖 AI Orchestration Engine"]
-    Gemini["Gemini 2.5 Flash"]
+    Gemini["Gemini AI Engine"]
 end
 
 %% =========================================================
