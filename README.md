@@ -40,6 +40,199 @@ The frontend is built with a highly polished "deep space" dark mode aesthetic. I
 
 ## 🏗️ System Architecture & Monorepo Structure
 
+AURA utilizes an **Agentic Microservices Architecture**. The Next.js frontend sends user queries to the Gemini AI Engine, which acts as a router. Gemini uses the Model Context Protocol (MCP) via Server-Sent Events (SSE) to dynamically query 4 independent Node.js microservices for data, before streaming interactive React Server Components back to the user.
+
+```mermaid
+flowchart TB
+
+%% =========================================================
+%% USER LAYER
+%% =========================================================
+
+User([👨‍🎓 Student / User])
+
+%% =========================================================
+%% FRONTEND LAYER
+%% =========================================================
+
+subgraph Frontend["🌐 Next.js 14 Frontend (App Router)"]
+    Dashboard["Dashboard UI"]
+    Chat["AI Chat Interface"]
+    RSC["React Server Components"]
+    GenUI["Generative UI Components"]
+    AuthProvider["Firebase Auth Provider"]
+end
+
+%% =========================================================
+%% FIREBASE
+%% =========================================================
+
+subgraph Firebase["🔥 Firebase"]
+    FirebaseAuth["Firebase Authentication"]
+    Firestore["Firestore Database"]
+end
+
+%% =========================================================
+%% API & AI ORCHESTRATION
+%% =========================================================
+
+subgraph Backend["⚡ Next.js Server Layer"]
+    ChatAPI["/api/chat"]
+    MCPClient["MCP Client Manager"]
+    ToolRouter["Tool Call Router"]
+end
+
+subgraph AI["🤖 AI Orchestration Engine"]
+    Gemini["Gemini 2.5 Flash"]
+end
+
+%% =========================================================
+%% MCP MICROSERVICES
+%% =========================================================
+
+subgraph MCP["🔌 Model Context Protocol Servers"]
+
+    subgraph AcademicsMCP["mcp-academics :3004"]
+        AcademicsTools["Academic Tools"]
+        AcademicsService["Service Layer"]
+        AcademicsRepo["Repository Layer"]
+    end
+
+    subgraph LibraryMCP["mcp-library :3001"]
+        LibraryTools["Library Tools"]
+        LibraryService["Service Layer"]
+        LibraryRepo["Repository Layer"]
+    end
+
+    subgraph EventsMCP["mcp-events :3003"]
+        EventsTools["Events Tools"]
+        EventsService["Service Layer"]
+        EventsRepo["Repository Layer"]
+    end
+
+    subgraph CafeteriaMCP["mcp-cafeteria :3002"]
+        CafeteriaTools["Cafeteria Tools"]
+        CafeteriaService["Service Layer"]
+        CafeteriaRepo["Repository Layer"]
+    end
+
+end
+
+%% =========================================================
+%% DATA SOURCES
+%% =========================================================
+
+subgraph DataSources["📚 Data Sources"]
+
+    AcademicsJSON["academics.json"]
+    LibraryJSON["library.json"]
+    EventsJSON["events.json"]
+    CafeteriaJSON["cafeteria.json"]
+
+    FutureFirestore["Future Firestore Repository"]
+    FutureCalendar["Future Google Calendar"]
+    FutureRAG["Future RAG / Vector DB"]
+
+end
+
+%% =========================================================
+%% USER FLOW
+%% =========================================================
+
+User --> Dashboard
+User --> Chat
+
+Dashboard --> AuthProvider
+AuthProvider --> FirebaseAuth
+
+Dashboard <--> Firestore
+
+Chat --> ChatAPI
+
+%% =========================================================
+%% GEMINI ORCHESTRATION
+%% =========================================================
+
+ChatAPI --> Gemini
+
+Gemini --> ToolRouter
+ToolRouter --> MCPClient
+
+%% =========================================================
+%% MCP COMMUNICATION
+%% =========================================================
+
+MCPClient <-->|SSE| AcademicsTools
+MCPClient <-->|SSE| LibraryTools
+MCPClient <-->|SSE| EventsTools
+MCPClient <-->|SSE| CafeteriaTools
+
+%% =========================================================
+%% INTERNAL MCP FLOW
+%% =========================================================
+
+AcademicsTools --> AcademicsService
+AcademicsService --> AcademicsRepo
+AcademicsRepo --> AcademicsJSON
+
+LibraryTools --> LibraryService
+LibraryService --> LibraryRepo
+LibraryRepo --> LibraryJSON
+
+EventsTools --> EventsService
+EventsService --> EventsRepo
+EventsRepo --> EventsJSON
+
+CafeteriaTools --> CafeteriaService
+CafeteriaService --> CafeteriaRepo
+CafeteriaRepo --> CafeteriaJSON
+
+%% =========================================================
+%% FUTURE DATA SOURCES
+%% =========================================================
+
+AcademicsRepo -.-> FutureRAG
+LibraryRepo -.-> FutureFirestore
+EventsRepo -.-> FutureCalendar
+CafeteriaRepo -.-> FutureFirestore
+
+%% =========================================================
+%% GENERATIVE UI
+%% =========================================================
+
+Gemini --> GenUI
+GenUI --> RSC
+RSC --> Chat
+
+%% =========================================================
+%% DEPLOYMENT
+%% =========================================================
+
+subgraph Deployment["☁️ Google Cloud Run Deployment"]
+
+    CloudRun["Single Docker Container"]
+
+end
+
+CloudRun --- Frontend
+CloudRun --- Backend
+CloudRun --- MCP
+
+%% =========================================================
+%% MONOREPO
+%% =========================================================
+
+subgraph Monorepo["📦 Turborepo Monorepo"]
+
+    WebApp["apps/web"]
+    MCPPackages["packages/mcp-*"]
+
+end
+
+WebApp --- Frontend
+MCPPackages --- MCP
+```
+
 This project uses **Turborepo** to manage the monorepo structure, allowing the Next.js frontend and the 4 MCP microservices to run side-by-side.
 
 ```text
