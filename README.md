@@ -9,7 +9,7 @@
 
 **AURA (AI Unified Resource Assistant)** is an enterprise-grade, multi-agent AI campus dashboard. It solves the fragmentation of university portals by centralizing library databases, cafeteria menus, academic schedules, and campus events into a single, cohesive, conversational interface driven by Google Gemini.
 
-### 🌐 **Live Demo:** [https://aura-dashboard-118861957249.europe-west1.run.app](https://aura-dashboard-118861957249.europe-west1.run.app)
+### 🌐 **Live @:** [https://aura-dashboard-118861957249.europe-west1.run.app](https://aura-dashboard-118861957249.europe-west1.run.app)
 
 ---
 
